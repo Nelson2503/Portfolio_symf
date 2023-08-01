@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block titre %}Mes Languages
+{% endblock %}
+
+{% block body %}
+
+
+	<div class="body">
+		<h1>Mes Languages</h1>
+
+		<ul>
+			{% for language in languages %}
+
+				<li>
+					<strong>{{ language.nom }}</strong>
+					<span>{{ language.icone}}</span>
+					<p>{{ language.description }}</p>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+	
+{% endblock %}

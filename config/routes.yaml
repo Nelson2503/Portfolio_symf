@@ -1,0 +1,35 @@
+controllers:
+  resource: ../src/Controller/
+  type: attribute
+
+home:
+  path: /home
+  controller: App\Controller\HomeController::index
+
+admin:
+  path: /admin
+  controller: App\Controller\Admin\DashboardController::index
+
+about:
+  path: /language
+  controller: App\Controller\LanguageController::index
+
+formation:
+  path: /formation
+  controller: App\Controller\FormationController::index
+
+projet:
+  path: /projet
+  controller: App\Controller\ProjetController::index
+
+cv:
+  path: /cv
+  controller: App\Controller\CvController::index
+
+contact:
+  path: /contact
+  controller: App\Controller\ContactController::contactForm
+
+contact_confirmation:
+  path: /contact/confirmation
+  controller: App\Controller\ContactController::contactConfirmation

@@ -1,0 +1,22 @@
+.body{
+    min-height:100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.txt_pres{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+h2{
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-size: 2.3em;
+}

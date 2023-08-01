@@ -1,0 +1,38 @@
+{# templates/_header.html.twig #}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			{% block title %}Mon Site
+			{% endblock %}
+		</title>
+		<link rel="stylesheet" href="{{ asset('Assets/header.css') }}">
+	</head>
+</html>
+
+<header class="header">
+	<h1 class="title">Nelson Lucas Pinto</h1>
+	<br>
+	<nav class="nav_bar">
+		<ul class="nav_list">
+			<li>
+				<a href="/home">Accueil</a>
+			</li>
+			<li>
+				<a href="/language">Language</a>
+			</li>
+			<li>
+				<a href="/formation">Formation</a>
+			</li>
+			<li>
+				<a href="/cv">CV</a>
+			</li>
+			<li>
+				<a href="/contact">Contact</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<hr/>
